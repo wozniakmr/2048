@@ -322,41 +322,31 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
-    border-radius: 3px;
-    background: #eee4da;
-    text-align: center;
-    font-weight: bold;
-    z-index: 10;
-    font-size: 0px; }
+    border-radius: 5px;
+    font-size: 1px; }
   .tile.tile-2 .tile-inner {
     background: url('../tile-sets/woz/2.jpg');
-    background-size: 110px;
-    color: #FFDDE2FF;
+    background-size: 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: url('../tile-sets/woz/4.jpg');
-    background-size: 110px;
-    color: #FAA094FF;
+    background-size: 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);}
   .tile.tile-8 .tile-inner {
     background: url('../tile-sets/woz/8.jpg');
-    background-size: 110px;
-    color: #008C76FF;
+    background-size: 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);}
   .tile.tile-16 .tile-inner {
     background: url('../tile-sets/woz/16.jpg');
-    background-size: 110px;
-    color: #9ED9CCFF;
+    background-size: 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);}
   .tile.tile-32 .tile-inner {
     background: url('../tile-sets/woz/32.jpg');
-    background-size: 110px;
-    color: #f9f6f2;
+    background-size: 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);}
   .tile.tile-64 .tile-inner {
     background: url('../tile-sets/woz/64.jpg');
-    background-size: 110px;
-    color: #f9f6f2;
+    background-size: 107px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);}
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
@@ -759,7 +749,7 @@ hr {
     transform: translate(202px, 202px); }
 
   .tile .tile-inner {
-    font-size: 35px; }
+    font-size: 1px; }
 
   .game-message p {
     font-size: 30px !important;
