@@ -648,8 +648,8 @@ hr {
       clear: both; }
 
   .grid-cell {
-    width: 61.6px; //57.5
-    height: 61.6px; //57.5
+    width: 100%; //57.5
+    height: 100%; //57.5
     margin-right: 10px;
     float: left;
     border-radius: 3px;
