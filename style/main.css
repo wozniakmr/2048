@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: gray; //#faf8ef
+  color: #776e65; 
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -16,8 +16,9 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 500%;
   font-weight: bold;
+  color: white;
   margin: 0;
   display: block;
   float: left; }
@@ -149,7 +150,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: gray;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -206,7 +207,7 @@ hr {
   z-index: 1; }
 
 .grid-row {
-  margin-bottom: 15px; }
+  margin-bottom: 15px; } 
   .grid-row:last-child {
     margin-bottom: 0; }
   .grid-row:after {
@@ -215,9 +216,9 @@ hr {
     clear: both; }
 
 .grid-cell {
-  width: 106.25px;
-  height: 106.25px;
-  margin-right: 15px;
+  width: 106.25px; 
+  height: 106.25px; 
+  margin-right: 15px; 
   float: left;
   border-radius: 3px;
   background: rgba(238, 228, 218, 0.35); }
@@ -323,70 +324,73 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 5px;
-    font-size: 35px;
-    color: white;
-    text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
+    font-size: 0px;
+    }
   .tile.tile-2 .tile-inner {
     background: url('../tile-sets/woz/2.jpg');
-    background-size: 107px; }
+    background-size: 100%;
+    }
   .tile.tile-4 .tile-inner {
     background: url('../tile-sets/woz/4.jpg');
-    background-size: 107px; }
+    background-size: 100%;
+    }
   .tile.tile-8 .tile-inner {
     background: url('../tile-sets/woz/8.jpg');
-    background-size: 107px; }
+    background-size: 100%;
+    }
   .tile.tile-16 .tile-inner {
     background: url('../tile-sets/woz/16.jpg');
-    background-size: 107px; }
+    background-size: 100%;
+    }
   .tile.tile-32 .tile-inner {
     background: url('../tile-sets/woz/32.jpg');
-    background-size: 107px; }
+    background-size: 100%;
+    }
   .tile.tile-64 .tile-inner {
     background: url('../tile-sets/woz/64.jpg');
-    background-size: 107px; }
+    background-size: 100%;
+    }
   .tile.tile-128 .tile-inner {
     background: url('../tile-sets/woz/128.jpg');
-    background-size: 107px;
-    font-size: 35px; }
+    background-size: 100%; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+         } }
   .tile.tile-256 .tile-inner {
     background: url('../tile-sets/woz/256.jpg');
-    background-size: 107px;
-    font-size: 35px; }
+    background-size: 100%;
+     }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    background: url('../tile-sets/woz/256.jpg');
-    background-size: 107px;
-    font-size: 35px; }
+    background: url('../tile-sets/woz/512.jpg');
+    background-size: 100%;
+     }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+        } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
-    font-size: 35px; }
+    background: url('../tile-sets/woz/1024.jpg');
+    background-size: 100%;
+    font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+         } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: #edc22e;
-    font-size: 35px; }
+    background: url('../tile-sets/woz/2048.jpg');
+    background-size: 100%;
+    }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+         } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
-    font-size: 30px; }
+     }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+         } }
 
 @-webkit-keyframes appear {
   0% {
@@ -517,7 +521,7 @@ hr {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: white; //#f9f6f2
   height: 40px;
   line-height: 42px;
   display: block;
@@ -537,7 +541,9 @@ hr {
 
   h1.title {
     font-size: 27px;
-    margin-top: 15px; }
+    margin-top: 15px;
+    color: white;
+    background: white; }
 
   .container {
     width: 280px;
@@ -741,7 +747,7 @@ hr {
     transform: translate(202px, 202px); }
 
   .tile .tile-inner {
-    font-size: 35px; }
+    font-size: 0px; }
 
   .game-message p {
     font-size: 30px !important;
